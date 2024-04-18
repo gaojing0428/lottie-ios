@@ -38,6 +38,10 @@ For the first time, designers can create and ship beautiful animations without a
   # s.resource_bundles = {
   #   'lottie-ios' => ['lottie-ios/Assets/*.png']
   # }
+  
+  s.resource_bundles = {
+    'LottiePrivacyInfo' => ['Sources/PrivacyInfo.xcprivacy'],
+  }
 
   s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
   s.ios.frameworks = 'UIKit'
